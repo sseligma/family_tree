@@ -1,0 +1,38 @@
+body {
+  font: 10px sans-serif;
+}
+
+#graph {
+}
+
+.linage {
+  fill: none;
+  stroke: #000;
+}
+
+.marriage {
+  fill: none;
+  stroke: black;
+}
+
+.man, .woman {
+  background-color: white; /*lightblue, pink*/
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px 5px;
+  display:table-cell;
+  vertical-align:top;
+}
+
+.emphasis {
+  font-style: italic;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.nodeText{
+    font: 8px sans-serif;
+}
